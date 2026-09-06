@@ -40,12 +40,12 @@ export default function Portfolio() {
             </Reveal>
             <Reveal delay={80}>
               <h1 className="display mt-6 text-[clamp(2.2rem,5.5vw,3.5rem)] text-balance text-ink-900">
-                The bets we&rsquo;ve made — even the ones we walked away from.
+                Products we shipped. Bets we didn't win. All part of the story.
               </h1>
             </Reveal>
             <Reveal delay={140}>
               <p className="mt-6 max-w-lg text-pretty text-lg text-ink-500">
-                A look at the products we&rsquo;ve helped bring to life, and the lessons behind each one.
+                A look back at what we've built, what worked, and what we learned along the way.
               </p>
             </Reveal>
           </div>

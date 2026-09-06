@@ -13,13 +13,13 @@ export default function About() {
             </Reveal>
             <Reveal delay={80}>
               <h1 className="display mt-6 text-[clamp(2.2rem,5.5vw,3.5rem)] text-balance text-ink-900">
-                A research habit and a shipping problem.
+                We're research, build and ship it.
               </h1>
             </Reveal>
             <Reveal delay={140}>
               <p className="mt-6 max-w-lg text-pretty text-lg text-ink-500">
-                Most products fail because the idea was never worth betting on. We start there —
-                and don&rsquo;t stop until it&rsquo;s real.
+                Started from 2020 as a fun side project.<br />
+                Become a capable team of researchers, builders, and shippers who turn ideas into products that actually make money.
               </p>
             </Reveal>
           </div>

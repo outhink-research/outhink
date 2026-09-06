@@ -18,8 +18,7 @@ export default function Contact() {
             </Reveal>
             <Reveal delay={140}>
               <p className="mt-6 max-w-lg text-pretty text-lg text-ink-500">
-                We take on a small number of projects each year. Give us the rough version of the
-                idea and we&rsquo;ll take it from there.
+                Talk to us what your idea, product, or research challenge is, and we&rsquo;ll help you figure out the next steps.
               </p>
             </Reveal>
           </div>

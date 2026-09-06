@@ -13,12 +13,12 @@ export default function Home() {
           <div className="lg:col-span-7">
             <Reveal delay={80}>
               <h1 className="display mt-6 text-[clamp(2.5rem,6.5vw,4.5rem)] text-balance text-ink-900">
-                Ideas worth betting on, built for real.
+                We bet where the idea is worth it.
               </h1>
             </Reveal>
             <Reveal delay={140}>
               <p className="mt-6 max-w-lg text-pretty text-lg text-ink-500">
-                We find promising ideas and turn them into working products.
+                We look for ideas worth the risk, then do the work to prove it.
               </p>
             </Reveal>
             <Reveal delay={200}>

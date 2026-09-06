@@ -45,7 +45,8 @@ export default function HowWeWork() {
             </Reveal>
             <Reveal delay={140}>
               <p className="mt-6 max-w-lg text-pretty text-lg text-ink-500">
-                Four moves that keep us honest — and keep bad bets from becoming bad products.
+                Four steps we follow every time:<br/>
+                study the idea, bet on it, build it, then connect it with the right resources — investors, partners, whatever it takes to make it real.
               </p>
             </Reveal>
           </div>
