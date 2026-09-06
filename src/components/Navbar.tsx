@@ -6,6 +6,7 @@ const LINKS: { label: string; to: '/' | '/how-we-work' | '/portfolio' | '/about'
   { label: 'How we work', to: '/how-we-work' },
   { label: 'Portfolio', to: '/portfolio' },
   { label: 'About Us', to: '/about' },
+  { label: 'Contact', to: '/contact' },
 ];
 
 function Logo({ onClick }: { onClick: () => void }) {
@@ -55,8 +56,8 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:block">
-            <button onClick={() => go('/contact')} className="btn-primary">
-              Start a project
+            <button onClick={() => go('/portfolio')} className="btn-primary">
+              See Our Work
             </button>
           </div>
 
@@ -91,8 +92,8 @@ export default function Navbar() {
               </button>
             ))}
           </div>
-          <button onClick={() => go('/contact')} className="btn-primary mt-10 w-full">
-            Start a project
+          <button onClick={() => go('/portfolio')} className="btn-primary mt-10 w-full">
+            See Our Work
           </button>
         </div>
       </div>
