@@ -18,7 +18,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={140}>
               <p className="mt-6 max-w-lg text-pretty text-lg text-ink-500">
-                We look for ideas worth the risk, then do the work to prove it.
+                We find ideas worth pursuing, then do the work to turn their potential into reality.
               </p>
             </Reveal>
             <Reveal delay={200}>

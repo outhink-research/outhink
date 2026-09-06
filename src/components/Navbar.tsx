@@ -12,7 +12,7 @@ const LINKS: { label: string; to: '/' | '/how-we-work' | '/portfolio' | '/about'
 function Logo({ onClick }: { onClick: () => void }) {
   return (
     <button onClick={onClick} className="flex items-center gap-2.5" aria-label="Outhink Research home">
-      <span className="text-[22px] font-semibold tracking-tight text-ink-900 font-display">
+      <span className="text-[22px] font-semibold tracking-tight text-ink-900">
         Outhink<span className="text-ink-400"> Research</span>
       </span>
     </button>
@@ -46,8 +46,10 @@ export default function Navbar() {
               <button
                 key={link.to}
                 onClick={() => go(link.to)}
-                className={`rounded-md px-3.5 py-2 text-sm transition-colors duration-200 ${
-                  route === link.to ? 'bg-ink-50 text-ink-900 font-medium' : 'text-ink-500 hover:text-ink-800'
+                className={`px-3.5 py-2 text-[12px] uppercase tracking-[1.5px] transition-colors duration-200 ${
+                  route === link.to
+                    ? 'font-medium text-ink-900 underline decoration-ink-900 decoration-1 underline-offset-4'
+                    : 'text-ink-400 hover:text-ink-900'
                 }`}
               >
                 {link.label}
@@ -83,8 +85,10 @@ export default function Navbar() {
               <button
                 key={link.to}
                 onClick={() => go(link.to)}
-                className={`block w-full text-left text-3xl font-semibold tracking-tight font-display transition-all ${
-                  route === link.to ? 'text-ink-900' : 'text-ink-400'
+                className={`block w-full text-left text-[12px] font-semibold uppercase tracking-[1.5px] transition-all ${
+                  route === link.to
+                    ? 'text-ink-900 underline decoration-ink-900 decoration-1 underline-offset-4'
+                    : 'text-ink-400'
                 }`}
                 style={{ transitionDelay: open ? `${i * 40}ms` : '0ms' }}
               >

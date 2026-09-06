@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,7 +18,7 @@
   body {
     background-color: var(--paper);
     color: var(--ink);
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-feature-settings: 'ss01', 'cv11';
   }
 
@@ -43,15 +45,15 @@
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-medium transition-colors duration-200;
+    @apply inline-flex items-center justify-center gap-2 rounded-[2px] border border-ink-900 bg-transparent px-5 py-2.5 text-sm font-medium uppercase tracking-[0.1em] text-ink-900 transition-colors duration-200;
   }
 
   .btn-primary {
-    @apply btn bg-ink-900 text-paper hover:bg-ink-700;
+    @apply btn hover:bg-transparent;
   }
 
   .btn-ghost {
-    @apply btn border border-ink-200 text-ink-700 hover:border-ink-400 hover:bg-ink-50;
+    @apply btn hover:bg-transparent;
   }
 
   .card {
